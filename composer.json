@@ -1,7 +1,7 @@
 {
-    "name": "linkorb/etcd-php",
+    "name": "woodw/etcd-php",
     "description": "Etcd client library for PHP",
-    "homepage": "http://www.github.com/linkorb/etcd-php",
+    "homepage": "https://www.github.com/jinghewang/etcd-php",
     "keywords": [
         "php",
         "etcd",
@@ -15,13 +15,17 @@
             "name": "Joost Faassen",
             "email": "j.faassen@linkorb.com",
             "role": "Development"
+        },
+        {
+            "name": "Woodw",
+            "role": "Development"
         }
     ],
     "require": {
         "php": ">=5.6",
-        "symfony/console": "^2.4 || ^3.0 || ^4.0",
-        "symfony/filesystem": "^2.4 || ^3.0 || ^4.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "symfony/console": "^2.4 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+        "symfony/filesystem": "^2.4 || ^3.0 || ^4.0 || ^5.0 || ^6.0",
+        "guzzlehttp/guzzle": "^6.3 || ^7.4.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
